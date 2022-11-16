@@ -1,0 +1,580 @@
+/* All the font sizes */
+@media(min-width:0rem){
+    /* Will change */
+    body{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5m;
+    }
+
+    /* toolbar title */
+    h1{
+        color: rgb(245,236,237);
+        font-size: 0.65rem;
+        font-weight: bold;
+        margin-bottom:0;
+        margin-top: 0;
+    }
+
+    /* First Page */
+    h2{
+        color: rgb(250,220,110);
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* Our focus is to: */
+    h3{
+        color: rgb(250,220,110);
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom:0rem;
+        margin-top: 0;
+    }
+
+    /* Title */
+    h4{
+        color: rgb(250,220,110);
+        font-size: 1.9rem;
+        font-weight: bold;
+        margin:0;
+    }
+
+    /* the year */
+    h5{
+        color: rgb(245,236,237);
+        font-size: 0.6rem;
+        font-style: italic;
+        margin: 0;
+    }
+
+    /* Download buttons School names */
+    h6{
+        color: rgb(250,220,110);
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin:0;
+    }
+
+    p{
+        color: rgb(245,236,237);
+        font-size: 0.45rem;
+        margin-bottom:0;
+        margin-top: 0;
+    }
+
+    ul{
+        color: rgb(245,236,237);
+        font-size: 0.45rem;
+        margin-bottom:0;
+        margin-top: 0;
+        padding-left:1rem;
+    }
+
+    /* links */
+    a{
+        color: rgb(245,236,237);
+        font-size: 0.5rem;
+    }
+
+    img{
+        border-radius: 1rem;
+    }
+
+    .linklight{
+        color: rgb(250,220,110);
+        font-size: 0.5rem;
+        text-decoration: underline;
+    }
+
+    .linklight:active, .linklight:hover, .linklight:focus {
+        color: rgb(55,147,187);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+
+    .nav-main-item{
+        background-color: rgb(55,147,187);
+        padding:0.3rem 1.5rem;
+        border-radius:1.25rem;
+
+        transition-property: background-color;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+        text-decoration: none;
+    }
+
+    .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+        color: rgb(75,75,170);
+        background-color: rgb(250,220,110);
+    }
+
+    .active-button{
+        color: rgb(245,236,237);
+        font-size: 0.4rem;
+        font-weight: bold;
+        margin-bottom:0;
+        margin-top: 0;
+        text-decoration: none;
+    }
+}
+
+@media(min-width:23rem){
+
+    /* toolbar title */
+    h1{
+        font-size: 0.9rem;
+    }
+
+    /* First Page */
+    h2{
+        font-size: 4rem;
+    }
+
+    /* Our focus is to: */
+    h3{
+        font-size: 2rem;
+    }
+
+    /* Title */
+    h4{
+        font-size: 3.5rem;
+    }
+
+    /* the year */
+    h5{
+        font-size: 0.6rem;
+    }
+
+    /* Download buttons School names */
+    h6{
+        font-size: 1.5rem;
+    }
+
+    p,ul{
+        font-size: 0.9rem;
+    }
+
+    /* links */
+    a{
+        font-size: 0.7rem;
+    }
+
+    .linklight{
+        font-size: 0.9rem;
+    }
+
+    .active-button{
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:48rem){
+
+    /* toolbar title */
+    h1{
+        font-size: 1.3rem;
+    }
+
+    /* First Page */
+    h2{
+        font-size: 5rem;
+    }
+
+    /* Our focus is to: */
+    h3{
+        font-size: 3rem;
+    }
+
+    /* Title */
+    h4{
+        font-size: 3.8rem;
+        margin-bottom: 1rem;
+    }
+
+    /* the year */
+    h5{
+        font-size: 1.2rem;
+    }
+
+    /* Download buttons School names */
+    h6{
+        font-size: 2rem;
+    }
+
+    /* para and bullet pts */
+    p,ul{
+        font-size: 1.2rem;
+    }
+
+    ul{
+        font-size: 1.2rem;
+        padding-left:2rem;
+    }
+
+    /* links */
+    a{
+        font-size: 0.9rem;
+    }
+
+    .linklight{
+        font-size: 1.2rem;
+    }
+
+    .active-button{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:64rem){
+
+    /* toolbar title */
+    h1{
+        font-size: 1.3rem;
+    }
+
+    /* First Page */
+    h2{
+        font-size: 5rem;
+    }
+
+    /* Our focus is to: */
+    h3{
+        font-size: 2.1rem;
+    }
+
+    /* Title */
+    h4{
+        font-size: 4rem;
+    }
+
+    /* the year */
+    h5{
+        font-size: 1.2rem;
+    }
+
+    /* Download buttons School names */
+    h6{
+        font-size: 1.9rem;
+    }
+
+    /* para and bullet pts */
+    p,ul{
+        font-size: 1.2rem;
+    }
+
+    /* links */
+    a{
+        font-size: 0.9rem;
+    }
+
+    .linklight{
+        font-size: 1.2rem;
+    }
+
+    .active-button{
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width:73rem){
+
+    /* toolbar title */
+    h1{
+        font-size: 2rem;
+    }
+
+    /* First Page */
+    h2{
+        font-size: 10rem;
+    }
+
+    /* Our focus is to: */
+    h3{
+        font-size: 4.2rem;
+    }
+
+    /* Title */
+    h4{
+        font-size: 7.5rem;
+    }
+
+    /* the year */
+    h5{
+        font-size: 1.6rem;
+    }
+
+    /* Download buttons School names */
+    h6{
+        font-size: 3rem;
+    }
+
+    /* para and bullet pts */
+    p, .linklight{
+        font-size: 1.8rem;
+    }
+
+    ul{
+        font-size: 1.8rem;
+        padding-left:3rem;
+    }
+
+    /* links */
+    a{
+        color: rgb(245,236,237);
+        font-size: 1.5rem;
+    }
+
+    .nav-main-item{
+        padding:1rem 3rem;
+        border-radius:2rem;
+    }
+
+    .active-button{
+        font-size: 2rem;
+    }
+}
+
+/* THE DOWNLOAD BUTTONS*/
+@media(min-width:0rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 0.45rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:0.5rem 2.1rem;
+        border-radius: 0.8rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+
+    .pdfbutton:active, .pdfbutton:hover, .pdfbutton:focus{
+        color:rgb(75,75,170);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+}
+
+@media(min-width:23rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 0.7rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:0.5rem 2rem;
+        border-radius: 0.8rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+
+    .pdfbutton:active, .pdfbutton:hover, .pdfbutton:focus{
+        color:rgb(75,75,170);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+}
+
+@media(min-width:25rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 0.6rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:0.5rem 2.8rem;
+        border-radius: 0.8rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+
+    .pdfbutton:active, .pdfbutton:hover, .pdfbutton:focus{
+        color:rgb(75,75,170);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+}
+
+@media(min-width:48rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 1.3rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:0.7rem 4.2rem;
+        border-radius: 1rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+}
+
+@media(min-width:64rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 1.5rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:1.5rem 7rem;
+        border-radius: 2rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+}
+
+@media(min-width:73rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 1.2rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:1.5rem 10rem;
+        border-radius: 2rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+
+    .pdfbutton:active, .pdfbutton:hover, .pdfbutton:focus{
+        color:rgb(75,75,170);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+}
+
+@media(min-width:80.6rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 1.3rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:1.5rem 12rem;
+        border-radius: 2rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+
+    .pdfbutton:active, .pdfbutton:hover, .pdfbutton:focus{
+        color:rgb(75,75,170);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+}
+
+@media(min-width:93rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 1.3rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:1.5rem 15.2rem;
+        border-radius: 2rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+
+    .pdfbutton:active, .pdfbutton:hover, .pdfbutton:focus{
+        color:rgb(75,75,170);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+}
+
+@media(min-width:105.5rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 1.3rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:1.5rem 18.3rem;
+        border-radius: 2rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+
+    .pdfbutton:active, .pdfbutton:hover, .pdfbutton:focus{
+        color:rgb(75,75,170);
+        background-color: rgb(250,220,110);
+        text-decoration: none;
+    }
+}
+
+@media(min-width:106.25rem){
+    .pdfbutton{
+        color: rgb(245,236,237);
+        font-size: 1.2rem;
+        margin-bottom:0;
+        margin-top: 0;
+
+        background-color: rgb(75,75,170);
+        text-align: center;
+        padding:1.5rem 3rem;
+        border-radius: 2rem;
+
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+
+        text-decoration: none;
+    }
+}
