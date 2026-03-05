@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Forever Flora Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
+
+    <!-- Links to Rafealla: https://fonts.adobe.com/fonts/rafaella -->
+    <link rel="stylesheet" href="https://use.typekit.net/ukd1gvf.css">
+    <!-- Links to EB Garamond and Commissioner Font: https://fonts.google.com/specimen/EB+Garamond and https://fonts.google.com/specimen/Commissioner -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- Nav Bar -->
+        <nav class="nav-main nav-grid">
+          <!-- Logo Image to Home-->
+          <a href="">
+            <img src="img/OffWhiteLogo.png" alt="Logo of Wild Flower">
+          </a>
+
+          <!-- List of Links -->
+          <div class="nav-links">
+            <a href="#interactive_elements" class="nav-main-item">Interactive Elements</a>
+            <a href="#text_elements" class="nav-main-item">Text Elements</a>
+            <a href="#combined_elements" class="nav-main-item">Combined Elements</a>
+            <a href="#citations" class="nav-main-item">Citations</a>
+          </div>
+
+        </nav>
+	</header>
+
+    <!-- HERO SECTION -->
+    <section class="hero_section">
+      <h1>Style Guide Template</h1>
+      <p>A template of all the elements used to create the brand of Wild Flower's website</p>
+    </section>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+        <p>Call <a href="#">here</a> to order now!</p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Rendered element:</h4>
+        <div class="rendered-element">
+          <a class="button-nav" href="#">Add to Cart</a>
+        </div>
+
+      </section>
+
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+        <!-- Creates the form -->
+        <form method="post" action="#">
+          <!-- The input name -->
+          <label for="form-name">Name:</label>
+          <!-- Input with placeholder -->
+          <input type="text" id="form-name" placeholder="Alicia">
+        </form>
+
+      </section>
+
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        
+        <!-- Links image -->
+        <!-- Referenced: https://www.w3schools.com/html/html_images.asp -->
+        <!-- Image taken from: https://www.prima.co.uk/craft/papercraft/a24222/how-to-press-flowers/ -->
+        <a href="#">
+          <img src="img/PurpleFlowers.png" height="643" width="1200" alt="Pressed Flowers image that leads to a video on how to press flowers.">
+        </a>
+
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+
+        <!-- Four Heading Levels -->
+        <!-- Referenced: https://www.w3schools.com/html/html_headings.asp -->
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <!-- Paragraph taken from https://www.geeserelief.com/geese-problems/aggressive-geese#:~:text=The%20birds%20often%20become%20aggressive,but%20severe%20injuries%20can%20happen. -->
+        <p>
+          Forever Flora is the perfect place to find a unique and local selection of pressed flowers. Each flower is handpicked and carefully pressed to maintain their colour and vibrancy. These flowers are perfect for your next project, such as home decor, a memorable gift or even letters and journaling. 
+        </p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>Violet</li>
+          <li>Iris</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+
+        <!-- Nav Bar -->
+        <nav class="nav-main nav-grid">
+          <!-- Mobile Nav Bar -->
+          <div class="nav-mobile-logocart">
+            <!-- Logo Image to Home-->
+            <a href="">
+              <img src="img/OffWhiteLogo.png" alt="Logo of Wild Flower">
+            </a>
+            <!-- Cart Button -->
+            <a href="" class="nav-cart">Cart</a>
+          </div>
+
+          <!-- Web Logo -->
+          <div class="nav-web-logo">
+            <a href="">
+              <img src="img/OffWhiteLogo.png" alt="Logo of Wild Flower">
+            </a>
+          </div>
+
+          <!-- List of Links -->
+          <div class="nav-links">
+            <a href="" class="nav-main-item">Shop</a>
+            <a href="" class="nav-main-item">How To</a>
+            <a href="" class="nav-main-item">About Us</a>
+
+            <!-- Web Cart Button -->
+            <div class="nav-web-cart">
+              <a href="" class="nav-cart">Cart</a>
+            </div>
+          </div>
+
+        </nav>
+
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+
+        <div class="product-listing">
+          <div class="product-card">
+            <a href="#">
+              <img src="img/PurpleFlowers.png" alt="Collection of Purple Flowers">
+            </a>
+            <div class="info">
+              <h2>Purple Flowers</h2>
+              <p>A collection of purple flowers ranging from Pansies to Irises.</p>
+              <h3>$19.95</h3>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Spoviero, Maximiliano. Designer. <strong>Rafealla [Font]</strong>. Retrieved from <a href="https://fonts.adobe.com/fonts/rafaella">https://fonts.adobe.com/fonts/rafaella</a></li>
+        <li>Bartsokas, Kostas. Designer. <strong>Commissioner [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Commissioner">https://fonts.google.com/specimen/Commissioner</a></li>
+        <li>Duffner, Georg and Pardo, Octavio. Designer. <strong>EB Garamond [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/EB+Garamond">https://fonts.google.com/specimen/EB+Garamond</a></li>
+        <li>Kamp, Angèle. (Photographer). (2021). <strong>four different types of leaves and flowers on a white surface [Photo]</strong>. Retrieved from <a href="https://unsplash.com/photos/four-different-types-of-leaves-and-flowers-on-a-white-surface-ZfAHlqTApFw">https://unsplash.com/photos/four-different-types-of-leaves-and-flowers-on-a-white-surface-ZfAHlqTApFw</a>.</li>
+        <li>Dahiya, Monica. (Photographer). (2020). <strong>yellow sunflower on white wall [Photo]</strong>. Retrieved from <a href="https://unsplash.com/photos/yellow-sunflower-on-white-wall-U4HBB6uA9eg">https://unsplash.com/photos/yellow-sunflower-on-white-wall-U4HBB6uA9eg</a>.</li>
+        <li>Dahiya, Monica. (Photographer). (2020). <strong>yellow sunflower on white wall [Photo]</strong>. Retrieved from <a href="https://unsplash.com/photos/yellow-sunflower-on-white-wall-_afDDmunOo0">https://unsplash.com/photos/yellow-sunflower-on-white-wall-_afDDmunOo0</a>.</li>
+        <li>Dylag, Jacek. (Photographer). (2018). <strong>pink petaled flowers on white surface [Photo]</strong>. Retrieved from <a href="https://unsplash.com/photos/pink-petaled-flowers-on-white-surface-QGkQJTFfvRE">https://unsplash.com/photos/pink-petaled-flowers-on-white-surface-QGkQJTFfvRE</a>.</li>
+        <li>kzaravisual. (Photographer). (Unknown). <strong>Unknown [Photo]</strong>. Retrieved from <a href="https://www.vecteezy.com/png/21333271-red-dried-flower-isolated-on-a-transparent-background">https://www.vecteezy.com/png/21333271-red-dried-flower-isolated-on-a-transparent-background</a>.</li>
+        <li>borealnz. (Photographer). (2011). <strong>pressed leaves [Photo]</strong>. Retrieved from <a href="https://www.flickr.com/photos/borealnz/1547906676/in/photostream/">https://www.flickr.com/photos/borealnz/1547906676/in/photostream/</a>.</li>
+        <li>freepik. (Platform). (Unknown). <strong>Flat lay flower press with white background [Photo]</strong>. Retrieved from <a href="https://www.freepik.com/free-photo/flat-lay-flower-press-with-white-background_43545541.htm#query=dried%20flowers%20transparent%20background&position=3&from_view=keyword&track=ais_user&uuid=a2b9218a-f149-406a-bf2b-554eee93cd6d">https://www.freepik.com/free-photo/flat-lay-flower-press-with-white-background_43545541.htm#query=dried%20flowers%20transparent%20background&position=3&from_view=keyword&track=ais_user&uuid=a2b9218a-f149-406a-bf2b-554eee93cd6d</a>.</li>
+        <li>Paper Doll Hearts. (Photographer). (Unknown). <strong>transparent pressed flowers for you darlings! Happy Springtime, do enjoy. [Photo]</strong>. Retrieved from <a href="https://paperdollhearts.tumblr.com/post/83607302662/high-quality-transparent-pressed-flowers-for-you">https://paperdollhearts.tumblr.com/post/83607302662/high-quality-transparent-pressed-flowers-for-you</a>.</li>
+        <li>Hagiwara, Brian. (Photographer). (2020). <strong>How to press flowers: A guide for beginners [Article]</strong>. Retrieved from <a href="https://www.goodhousekeeping.com/uk/lifestyle/a31979217/how-to-press-flowers/">https://www.goodhousekeeping.com/uk/lifestyle/a31979217/how-to-press-flowers/</a>.</li>
+        <li>Fitzgerald, Sean. (Photographer). (Unknown). <strong>Pressed for Posterity [Photo]</strong>. Retrieved from <a href="https://texashighways.com/culture/collections-of-dried-native-flowers-tell-the-story-of-texas/">https://texashighways.com/culture/collections-of-dried-native-flowers-tell-the-story-of-texas/</a>.</li>
+        <li>Unknown. (Photographer). (2019). <strong>pressed flowers • transparent [Photo]</strong>. Retrieved from <a href="https://transparebcy.tumblr.com/post/182873423694/pressed-flowers-transparent">https://transparebcy.tumblr.com/post/182873423694/pressed-flowers-transparent</a>.</li>
+        <li>rawpixel. (Platform). (Unknown). <strong>Dried daisy flower design element [Photo]</strong>. Retrieved from <a href="https://www.rawpixel.com/image/2337091/free-photo-png-mockup-bellis-perennis-bloom">https://www.rawpixel.com/image/2337091/free-photo-png-mockup-bellis-perennis-bloom</a>.</li>
+        <li>Sparrow&Snow. (Platform). (Unknown). <strong>Pressed Flowers Vol.1 Elements [Photo]</strong>. Retrieved from <a href="https://www.sparrowandsnow.com/product/pressed-dry-flowers-herbs/">https://www.sparrowandsnow.com/product/pressed-dry-flowers-herbs/</a>.</li>
+        <li>Warren Public Library. (Platform). (2015). <strong>Pressed Flower Artistry [Photo]</strong>. Retrieved from <a href="https://www.warrenlibrary.net/pressed-flower-artistry/">https://www.warrenlibrary.net/pressed-flower-artistry/</a>.</li>
+        <!-- <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li> -->
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>

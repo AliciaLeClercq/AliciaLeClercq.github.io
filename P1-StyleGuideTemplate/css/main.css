@@ -1,0 +1,269 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+    font-family: "Commissioner", sans-serif;
+    margin: 0;
+    background-color: #F7F6F2;
+    color: #5E479E;
+  }
+  
+  .element {
+    padding-left: 0;
+    padding-right: 0;
+    border-top-width: 0.15rem;
+    border-top-style: solid;
+    border-top-color: #5E479E;
+  }
+
+  h1 {
+    font-family: "rafaella", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.35;
+    color: #5E479E;
+    margin: 0;
+  }
+
+  .hero_section h1{
+    color: #F7F6F2;
+    text-align: center;
+  }
+  
+  h2, h3, h4, h5, h6{
+    font-family: "Commissioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+  
+  h4 {
+    font-size: 1.07rem;
+    font-weight: 560;
+    margin-bottom: 0.25rem;
+  }
+  
+  p {
+    margin-top: 0;
+    max-width: 38rem;
+  }
+
+  .hero_section p{
+    color: #F7F6F2;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  ol{
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  code {
+    background-color: #EEE;
+    padding: 0.5rem;
+    display: block;
+  }
+  
+  
+  /* 
+    INTERACTIVE ELEMENTS -------------------
+  */
+
+  /* Styling for in-text link */
+  a{
+    color: #B78913;
+    font-weight: 650; 
+    text-decoration: none;
+  }
+
+  a:hover, a:focus{
+    color: #BD9C49;
+    text-decoration: underline;
+  }
+  
+  /* Links in Nav Bar */
+  nav a{
+    color: #5E479E;
+    text-decoration: none;
+  }
+
+  nav a:hover, nav a:focus {
+    color: #A475AC;
+    text-decoration: none;
+  }
+
+  /* Logo in Nav Bar */
+  nav img{
+    width: 8rem;
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+
+    transition-property: transform;
+    transition-duration: 0.2s;
+  }
+
+  nav img:hover, nav img:focus{
+    box-shadow: none;
+    transform: scale(0.95,0.95);
+  }
+
+  /* Styling for image */
+  img{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #5E479E;
+    width: 60%;
+
+    height: auto;
+    max-width: 100%;
+
+    transition-property: box-shadow;
+    transition-duration: 0.35s;
+  }
+
+  img:hover, .product-card img:focus{
+    /* Referenced: https://stackoverflow.com/questions/9612758/add-a-css-border-on-hover-without-moving-the-element */
+    box-shadow: 0 0 0 3px #5E479E;
+  }
+  
+  /* Styling for the navigation button */
+  .button-nav {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border: 2px solid #5E479E;
+    border-radius: 8px;
+    color: #5E479E;
+  }
+  
+  .button-nav:hover, .button-nav:focus {
+    color: #F7F6F2;
+    background-color: #5E479E;
+    font-weight: 600;
+    text-decoration: none;
+  }  
+
+  /* Styling for Form */
+  label,input {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  /* Referenced: https://www.w3schools.com/howto/howto_css_placeholder.asp */
+  ::placeholder{
+    color: #9586BC;
+  }
+
+  input{
+    padding: 0.4rem;
+    width: 100%;
+    /* border: 2px solid #5E479E ; */
+    border: none;
+    border-radius: 5px;
+    background-color: #DBD3EA;
+  }
+
+  input:hover, input:focus{
+    background-color: white;
+    /* border-color: #A475AC; */
+  }
+
+  form {
+    width: 40rem;
+    max-width: 100%;
+  }
+  
+  label {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    /* Gives it a seperate line */
+    display: block;
+  }
+
+  button{
+    margin-top: 2rem;
+    background: #5E479E;
+    color: #EEE;
+    border: none;
+    padding: 0.6rem;
+  }
+
+  button:hover, button:focus{
+    background: #A475AC;
+  }
+  
+  /* 
+    TEXT ELEMENTS -------------------
+  */
+  
+  
+  
+  
+  /* 
+    COMBINED ELEMENTS -------------------
+  */
+
+  .product-card img{
+    width: 100%;
+  }
+
+
+  /* Styling for Section */
+  section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero_section{
+    background-color: #5E479E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+  }
+
+  /* Tablet Size */
+@media (min-width: 41.87rem){ /* 670px */
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  img{
+    width: 30rem;
+  }
+
+  .hero_section p{
+    font-size: 1.4rem;
+    max-width: 100%;
+  }
+
+  section {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .hero_section{
+    height: 65vh;
+  }
+}
