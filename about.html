@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>About Us </title>
+         <link href="css/main.css" rel="stylesheet">
+
+         <!-- Links to Rafealla: https://fonts.adobe.com/fonts/rafaella -->
+    <link rel="stylesheet" href="https://use.typekit.net/ukd1gvf.css">
+    <!-- Links to EB Garamond and Commissioner Font: https://fonts.google.com/specimen/EB+Garamond and https://fonts.google.com/specimen/Commissioner -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+  <header>
+    <!-- Nav Bar -->
+    <nav class="nav-main nav-grid">
+      <!-- Mobile Nav Bar -->
+      <div class="nav-mobile-logocart">
+        <!-- Logo Image to Home-->
+        <a href="index.html">
+          <img src="img/Logo.png" alt="Logo of Wild Flower. Leads to Homepage">
+        </a>
+        <!-- Cart Button -->
+        <a href="shoppingcart.html" class="button-nav">Cart</a>
+      </div>
+
+      <!-- Web Logo -->
+      <div class="nav-web-logo">
+        <a href="index.html">
+          <img src="img/Logo.png" alt="Logo of Wild Flower">
+        </a>
+      </div>
+
+      <!-- List of Links -->
+      <div class="nav-links">
+        <!-- Referenced: https://stackoverflow.com/questions/8424785/link-to-a-section-of-a-webpage -->
+        <a href="index.html" class="nav-main-item">Home</a>
+        <a href="index.html#bestsellers" class="nav-main-item">Shop</a>
+        <a href="index.html#wild-academy" class="nav-main-item">Wild Academy</a>
+        <a href="about.html" class="nav-main-item">About Us</a>
+
+        <!-- Web Cart Button -->
+        <div class="nav-web-cart">
+          <a href="shoppingcart.html" class="button-nav">Cart</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- Hero Section -->
+<section class="hero_section_about">
+  <h1>About Us</h1>
+</section>
+
+<!-- Our Story Section -->
+<section class="our-story-section purple_bg" id="our-story">
+  <img class="img-border" src="img/ourstory.jpg" alt="Yellow Flowers with a Whale Plush hiding inside">
+  <div>
+    <h2>Our Story</h2>
+    <p class="story-p">At Wild Flower, we specialize in offering a distinctive and curated selection of pressed flowers. Each blossom is meticulously handpicked and expertly pressed to preserve its natural beauty and vibrant colors.</p>
+    <p>Our pressed flowers are perfect for enhancing your home decor, creating memorable gifts, or adding a personal touch to your letters and journaling projects. Discover the timeless elegance of nature with Wild Flower.</p>
+  </div>
+</section>
+
+<!-- Our Process Section -->
+<section class="our-process-section" id="our-process">
+    <div class="process-title">
+        <h2>Our Process</h2>
+        <p>Learn how we press your flowers to timeless pieces!</p>
+    </div>
+    
+    <div class="process-content">
+      <div class="process-step">
+          <img class="img-border" src="img/process-step1.png" alt="Flowers placed in a book">
+          <div>
+            <div class="step-title">
+              <img src="img/step1.png" alt="number one in an outlined circle">
+              <h4>Select Blooms</h4>
+            </div>
+            <p>We choose fresh, vibrant flowers of your choice that have recently bloomed. We then arrange the flowers on one sheet of parchment paper.</p>
+          </div>
+      </div>
+      
+      <div class="process-step">
+          <img class="img-border" src="img/process-step2.png" alt="Closed book with flowers inside">
+          <div>
+            <div class="step-title">
+              <img src="img/step2.png" alt="number two in an outlined circle">
+              <h4>Pressing</h4>
+            </div>
+            <p>We place the second piece of paper on top of arranged flowers. We make sure to flatten the flower faces in the shape you'd like to achieve when pressed.</p>
+          </div>
+      </div>
+      
+      <div class="process-step">
+          <img class="img-border" src="img/process-step3.png" alt="Open Book with pressed flowers">
+          <div>
+            <div class="step-title">
+              <img src="img/step3.png" alt="number three in an outlined circle">
+              <h4>Arrangement</h4>
+            </div>
+            <p>We wait anywhere between 2-4 weeks for the flowers to dry. This is dependent on the thickness of the petals. Once pressed, we then arrange them into the design you picked!</p>
+          </div>
+      </div>
+    </div>
+</section>
+
+<!-- Connect with Us Section -->
+<section class="connect-section purple_bg" id="connect-with-us">
+    <div class="title">
+        <h2>Connect with Us!</h2>
+        <p>Interested in working together? Have a question for us? Just want to say hi? Let’s talk.</p>
+    </div>
+    <form>
+      <div class="input-name">
+        <div>
+          <label for="fname">First Name</label>
+          <input type="text" id="name" name="fname" placeholder="Nara">
+        </div>
+
+        <div>
+          <label for="lname">Last Name</label>
+          <input type="text" id="name" name="lname" placeholder="Smith">
+        </div>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="narasmith@gmail.com">
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something..." style="height:150px"></textarea>
+      </div>
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-grid">
+    <a href="index.html">
+      <img src="img/Logo.png" alt="Logo of Wild Flower. Leads to Homepage">
+    </a>
+
+    <div class="footer-links">
+      <div class="group-one vertical-layout">
+        <h2>Shop</h2>
+        <a href="index.html#bestsellers">Collections</a>
+        <a href="index.html#bestsellers">Flowers</a>
+        <a href="index.html#bestsellers">Leaves</a>
+      </div>
+
+      <div class="group-two vertical-layout">
+        <h2>Discover</h2>
+        <a href="index.html#wild-academy">Wild Academy</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="#">About Us</a>
+      </div>
+
+      <div class="group-three vertical-layout">
+        <h2>Customer Care</h2>
+        <a href="#">Shipping & Returns</a>
+        <a href="#">FAQs</a>
+        <a href="about.html#connect-with-us">Contact Us</a>
+      </div>
+
+      <div class="group-four vertical-layout">
+        <h2>Design</h2>
+        <a href="https://www.sfu.ca/siat/student_projects/iat339_2024_summer/agl1/P01-May%2031/">Style Guide</a>
+        <a href="citations.html">Citations</a>
+        <a href="https://github.sfu.ca/iat339/P2-BetterThanAI">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="banner">
+  </div>
+</footer>
+
+</body>
+</html>
